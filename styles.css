@@ -1,0 +1,100 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background: #f4f6f8;
+}
+header {
+    background: #2c7be5;
+    color: white;
+    padding: 15px;
+}
+nav a {
+    color: white;
+    margin: 0 10px;
+    text-decoration: none;
+    font-weight: bold;
+}
+nav a:hover { text-decoration: underline; }
+.container {
+    background-image: url("assets/kampala.jpg");
+    background-size: cover;
+    padding: 100px;
+    font-family: sans-serif;
+    color: white;
+}
+.card {
+    background: green;
+    padding: 15px;
+    margin: 10px 0;
+    border-radius: 6px;
+}
+button {
+    background: #2c7be5;
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+}
+.footer {
+    background: #0b0f19;
+    color: #d1d5db;
+    margin-top: 50px;
+    font-size: 14px;
+}
+
+/* Layout grid */
+.footer-container {
+    max-width: 1200px;
+    margin: auto;
+    padding: 40px 20px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 30px;
+}
+
+/* Section titles */
+.footer-section h3 {
+    color: #ffffff;
+    margin-bottom: 15px;
+    font-size: 16px;
+    border-bottom: 2px solid #2c7be5;
+    display: inline-block;
+    padding-bottom: 5px;
+}
+
+/* Logo */
+.footer-logo {
+    color: #ffffff;
+    margin-bottom: 10px;
+}
+
+/* Lists */
+.footer-section ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-section ul li {
+    margin-bottom: 8px;
+}
+
+/* Links */
+.footer a {
+    color: #9ca3af;
+    text-decoration: none;
+    transition: 0.3s ease;
+}
+
+.footer a:hover {
+    color: #2c7be5;
+    padding-left: 4px;
+}
+
+/* Bottom bar */
+.footer-bottom {
+    text-align: center;
+    padding: 15px;
+    background: #05070d;
+    border-top: 1px solid #1f2937;
+    font-size: 13px;
+}
