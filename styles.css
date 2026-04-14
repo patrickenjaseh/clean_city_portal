@@ -16,7 +16,7 @@ nav a {
 }
 nav a:hover { text-decoration: underline; }
 .container {
-    background-image: url("assets/kampala.jpg");
+    background-image: url("kampala.jpg");
     background-size: cover;
     padding: 100px;
     font-family: sans-serif;
